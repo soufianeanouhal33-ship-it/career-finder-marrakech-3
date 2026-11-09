@@ -1,0 +1,106 @@
+{
+  "numStartups": 5,
+  "customApiKeyResponses": {
+    "approved": [],
+    "rejected": [
+      "caf3-ea167d-6088379e"
+    ]
+  },
+  "tipsHistory": {
+    "new-user-warmup": 1,
+    "plan-mode-for-complex-tasks": 2,
+    "vscode-gpu-accel-garbled-glyphs": 4
+  },
+  "firstStartTime": "2026-11-09T12:54:21.612Z",
+  "firstStartVersion": "2.1.319",
+  "machineID": "82a30dda5fbf89d0ecbbb1d4eb5004a6471900ea9913621b4fccdd357493e1fb",
+  "opusProMigrationComplete": true,
+  "sonnet1m45MigrationComplete": true,
+  "seenNotifications": {},
+  "hasResetAutoModeOptInForDefaultOffer": true,
+  "migrationVersion": 14,
+  "userID": "ef4f2bf89c45dee941590bec5a8f777e333bda03afdbcc02bb57524e91e829ff",
+  "changelogLastFetched": 1794228888158,
+  "shiftEnterKeyBindingInstalled": true,
+  "hasCompletedOnboarding": true,
+  "lastOnboardingVersion": "2.1.319",
+  "projects": {
+    "C:/Users/PC/Downloads/projet principale career finder marrakech new": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "lastGracefulShutdown": false,
+      "lastVersionBase": "2.1.319",
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 207938,
+      "lastStartTime": 1794229752093,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastFpsAverage": 0.2,
+      "lastFpsLow1Pct": 25.09,
+      "lastModelUsage": {},
+      "lastSessionId": "e5dfc3f3-c7c3-4c2d-9328-8362ab2e5dd5",
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 40,
+        "frame_duration_ms_min": 0.23149999999441206,
+        "frame_duration_ms_max": 39.85450000001583,
+        "frame_duration_ms_avg": 6.441967500000624,
+        "frame_duration_ms_p50": 3.2739499999879627,
+        "frame_duration_ms_p95": 22.99593500000023,
+        "frame_duration_ms_p99": 34.22024800001381
+      }
+    }
+  },
+  "lastReleaseNotesSeen": "2.1.319",
+  "hasSeenAutoDefaultNotice": true,
+  "closedIssuesLastChecked": 1794228910883,
+  "pluginUsage": {
+    "cc-plugin-agents-md@builtin": {
+      "usageCount": 0,
+      "lastUsedAt": 1794228914344,
+      "lastUsedNumStartups": 1
+    },
+    "cc-plugin-telemetry@builtin": {
+      "usageCount": 0,
+      "lastUsedAt": 1794228914344,
+      "lastUsedNumStartups": 1
+    },
+    "cc-plugin-privacy@builtin": {
+      "usageCount": 0,
+      "lastUsedAt": 1794228914344,
+      "lastUsedNumStartups": 1
+    },
+    "cc-plugin-plugin-authoring@builtin": {
+      "usageCount": 0,
+      "lastUsedAt": 1794228914344,
+      "lastUsedNumStartups": 1
+    },
+    "cc-plugin-diff@builtin": {
+      "usageCount": 0,
+      "lastUsedAt": 1794228914344,
+      "lastUsedNumStartups": 1
+    }
+  },
+  "officialMarketplaceAutoInstallAttempted": true,
+  "officialMarketplaceAutoInstalled": true,
+  "hasSeenAutoModeOutsideReadPrompt": true,
+  "autoModeClassifierBillingNoticeAcknowledgedAt": 1794229195003,
+  "tipLifetimeShownCounts": {
+    "new-user-warmup": 1,
+    "plan-mode-for-complex-tasks": 1,
+    "vscode-gpu-accel-garbled-glyphs": 1
+  }
+}

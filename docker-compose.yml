@@ -1,0 +1,24 @@
+services:
+  app:
+    build: .
+    env_file: .env
+    environment:
+      # Refuse de démarrer sans SECRET_KEY (sinon les sessions casseraient à chaque redémarrage)
+      SECRET_KEY: ${SECRET_KEY:?Définis SECRET_KEY dans .env (voir .env.example)}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:8000}
+    ports:
+      # Interface + API sur http://localhost:8000. Pour un accès depuis l'extérieur,
+      # place un reverse proxy HTTPS devant (voir README).
+      - "8000:8000"
+    volumes:
+      - career_data:/app/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health', timeout=3)"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    restart: unless-stopped
+
+volumes:
+  career_data:

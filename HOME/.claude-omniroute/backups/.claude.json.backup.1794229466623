@@ -1,0 +1,114 @@
+{
+  "numStartups": 2,
+  "customApiKeyResponses": {
+    "approved": [],
+    "rejected": [
+      "caf3-ea167d-6088379e"
+    ]
+  },
+  "tipsHistory": {
+    "new-user-warmup": 1,
+    "plan-mode-for-complex-tasks": 2
+  },
+  "firstStartTime": "2026-11-09T12:54:21.612Z",
+  "firstStartVersion": "2.1.319",
+  "machineID": "82a30dda5fbf89d0ecbbb1d4eb5004a6471900ea9913621b4fccdd357493e1fb",
+  "opusProMigrationComplete": true,
+  "sonnet1m45MigrationComplete": true,
+  "seenNotifications": {},
+  "hasResetAutoModeOptInForDefaultOffer": true,
+  "migrationVersion": 14,
+  "userID": "ef4f2bf89c45dee941590bec5a8f777e333bda03afdbcc02bb57524e91e829ff",
+  "changelogLastFetched": 1794228888158,
+  "shiftEnterKeyBindingInstalled": true,
+  "hasCompletedOnboarding": true,
+  "lastOnboardingVersion": "2.1.319",
+  "projects": {
+    "C:/Users/PC/Downloads/projet principale career finder marrakech new": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "lastGracefulShutdown": true,
+      "lastVersionBase": "2.1.319",
+      "lastCost": 0.019452,
+      "lastAPIDuration": 45186,
+      "lastAPIDurationWithoutRetries": 45008,
+      "lastToolDuration": 0,
+      "lastDuration": 125276,
+      "lastStartTime": 1794229221147,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 708,
+      "lastTotalOutputTokens": 831,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastFpsAverage": 6.9,
+      "lastFpsLow1Pct": 1.8,
+      "lastModelUsage": {
+        "Free-Combo": {
+          "inputTokens": 708,
+          "outputTokens": 831,
+          "thinkingTokens": 0,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.019452
+        }
+      },
+      "lastSessionId": "117ef2b7-0c22-4ceb-8d29-c017fc765717",
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 832,
+        "frame_duration_ms_min": 0.17269999999552965,
+        "frame_duration_ms_max": 3246.8026000000027,
+        "frame_duration_ms_avg": 29.67738389423079,
+        "frame_duration_ms_p50": 2.1226499999957014,
+        "frame_duration_ms_p95": 114.65591499999522,
+        "frame_duration_ms_p99": 540.7858509999938
+      }
+    }
+  },
+  "lastReleaseNotesSeen": "2.1.319",
+  "hasSeenAutoDefaultNotice": true,
+  "closedIssuesLastChecked": 1794228910883,
+  "pluginUsage": {
+    "cc-plugin-agents-md@builtin": {
+      "usageCount": 0,
+      "lastUsedAt": 1794228914344,
+      "lastUsedNumStartups": 1
+    },
+    "cc-plugin-telemetry@builtin": {
+      "usageCount": 0,
+      "lastUsedAt": 1794228914344,
+      "lastUsedNumStartups": 1
+    },
+    "cc-plugin-privacy@builtin": {
+      "usageCount": 0,
+      "lastUsedAt": 1794228914344,
+      "lastUsedNumStartups": 1
+    },
+    "cc-plugin-plugin-authoring@builtin": {
+      "usageCount": 0,
+      "lastUsedAt": 1794228914344,
+      "lastUsedNumStartups": 1
+    },
+    "cc-plugin-diff@builtin": {
+      "usageCount": 0,
+      "lastUsedAt": 1794228914344,
+      "lastUsedNumStartups": 1
+    }
+  },
+  "officialMarketplaceAutoInstallAttempted": true,
+  "officialMarketplaceAutoInstalled": true,
+  "hasSeenAutoModeOutsideReadPrompt": true,
+  "autoModeClassifierBillingNoticeAcknowledgedAt": 1794229195003,
+  "tipLifetimeShownCounts": {
+    "new-user-warmup": 1,
+    "plan-mode-for-complex-tasks": 1
+  }
+}

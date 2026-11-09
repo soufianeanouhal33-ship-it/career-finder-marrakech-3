@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Career Finder">
+  <defs>
+    <linearGradient id="cf-g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#0f3d3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#cf-g)"/>
+  <circle cx="30" cy="34" r="17" fill="none" stroke="#ffffff" stroke-width="4" opacity=".95"/>
+  <circle cx="30" cy="34" r="8" fill="none" stroke="#ffffff" stroke-width="4" opacity=".95"/>
+  <circle cx="30" cy="34" r="2.6" fill="#fbbf24"/>
+  <path d="M34 30 L50 14" fill="none" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
+  <path d="M41 13 H51 V23" fill="none" stroke="#fbbf24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
