@@ -84,7 +84,6 @@ def init_db():
             FOREIGN KEY (opportunity_id) REFERENCES opportunities(id) ON DELETE CASCADE
         )
     """)
-    cur.execute("CREATE INDEX IF NOT EXISTS idx_applications_user ON applications(user)")
     cur.execute("""
         CREATE TABLE IF NOT EXISTS applications (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -99,6 +98,7 @@ def init_db():
             FOREIGN KEY (opportunity_id) REFERENCES opportunities(id)
         )
     """)
+    cur.execute("CREATE INDEX IF NOT EXISTS idx_applications_user ON applications(user)")
     cur.execute("""
         CREATE TABLE IF NOT EXISTS profile (
             user TEXT PRIMARY KEY,
