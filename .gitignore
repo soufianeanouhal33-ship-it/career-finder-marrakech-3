@@ -6,3 +6,6 @@ venv/
 data/*.db
 .vscode/
 .pytest_cache/
+.streamlit/secrets.toml
+HOME/
+.claude/
